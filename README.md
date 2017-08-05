@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Winapi](https://github.com/Boostorg/Winapi) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Winapi%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Winapi%3Abincrafters).
 
 ## For Users: Use this package
 
