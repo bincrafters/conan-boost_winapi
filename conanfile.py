@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostWinapiConan(ConanFile):
     name = "boost_winapi"
     version = "1.66.0"
-    url = "https://github.com/bicrafters/conan-boost-winapi"
+    url = "https://github.com/bincrafters/conan-boost_winapi"
 
     lib_short_names = ["winapi"]
     is_header_only = True
