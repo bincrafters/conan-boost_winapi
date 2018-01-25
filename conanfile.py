@@ -8,7 +8,8 @@ class BoostWinapiConan(ConanFile):
     name = "boost_winapi"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_winapi"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["winapi"]
     is_header_only = True
 
