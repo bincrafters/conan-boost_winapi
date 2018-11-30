@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostWinapiConan(base.BoostBaseConan):
     name = "boost_winapi"
@@ -15,5 +15,3 @@ class BoostWinapiConan(base.BoostBaseConan):
         "boost_config",
         "boost_predef"
     ]
-
-
