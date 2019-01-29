@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostWinapiConan(base.BoostBaseConan):
     name = "boost_winapi"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_winapi"
     lib_short_names = ["winapi"]
     header_only_libs = ["winapi"]
